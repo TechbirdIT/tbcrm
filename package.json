@@ -1,0 +1,15 @@
+{
+  "name": "tbcrm",
+  "version": "1.0.0",
+  "description": "CRM tool developed by techbird",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd tbcrmui && yarn install",
+    "dev": "cd tbcrmui && yarn dev",
+    "build": "cd tbcrmui && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
